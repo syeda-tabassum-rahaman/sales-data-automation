@@ -7,6 +7,7 @@ This project automates the extraction of sales transaction data from Gmail attac
 - **Trigger:** Gmail (New message with "sales" in subject)
 - **Transform:** n8n "Extract from File" (Binary to JSON conversion)
 - **Load:** Supabase / Postgres (Insert row)
+![n8n Workflow](./assets/n8n-workflow.png)
 
 ## Tech Stack
 - **Orchestration:** n8n
